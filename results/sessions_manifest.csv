@@ -1,0 +1,12 @@
+dataset,session_id,split,date,n_bins,n_units,n_covariate_dims,eval_bins,labeled_minutes,path
+m1,ses-20120924,held-in-calib,2012-09-24,182498,64,16,54849,18.28,data/000941/000941/sub-MonkeyL-held-in-calib/sub-MonkeyL-held-in-calib_ses-20120924_behavior+ecephys.nwb
+m1,ses-20120924,held-in-minival,2012-09-24,806,64,16,252,0.08,data/000941/000941/sub-MonkeyL-held-in-minival/sub-MonkeyL-held-in-minival_ses-20120924_behavior+ecephys.nwb
+m1,ses-20120926,held-in-calib,2012-09-26,172325,64,16,54476,18.16,data/000941/000941/sub-MonkeyL-held-in-calib/sub-MonkeyL-held-in-calib_ses-20120926_behavior+ecephys.nwb
+m1,ses-20120926,held-in-minival,2012-09-26,652,64,16,256,0.09,data/000941/000941/sub-MonkeyL-held-in-minival/sub-MonkeyL-held-in-minival_ses-20120926_behavior+ecephys.nwb
+m1,ses-20120927,held-in-calib,2012-09-27,177606,64,16,49228,16.41,data/000941/000941/sub-MonkeyL-held-in-calib/sub-MonkeyL-held-in-calib_ses-20120927_behavior+ecephys.nwb
+m1,ses-20120927,held-in-minival,2012-09-27,1039,64,16,255,0.09,data/000941/000941/sub-MonkeyL-held-in-minival/sub-MonkeyL-held-in-minival_ses-20120927_behavior+ecephys.nwb
+m1,ses-20120928,held-in-calib,2012-09-28,160436,64,16,54783,18.26,data/000941/000941/sub-MonkeyL-held-in-calib/sub-MonkeyL-held-in-calib_ses-20120928_behavior+ecephys.nwb
+m1,ses-20120928,held-in-minival,2012-09-28,727,64,16,262,0.09,data/000941/000941/sub-MonkeyL-held-in-minival/sub-MonkeyL-held-in-minival_ses-20120928_behavior+ecephys.nwb
+m1,ses-20121004,held-out-calib,2012-10-04,3442,64,16,1305,0.43,data/000941/000941/sub-MonkeyL-held-out-calib/sub-MonkeyL-held-out-calib_ses-20121004_behavior+ecephys.nwb
+m1,ses-20121017,held-out-calib,2012-10-17,3342,64,16,1295,0.43,data/000941/000941/sub-MonkeyL-held-out-calib/sub-MonkeyL-held-out-calib_ses-20121017_behavior+ecephys.nwb
+m1,ses-20121024,held-out-calib,2012-10-24,6671,64,16,1281,0.43,data/000941/000941/sub-MonkeyL-held-out-calib/sub-MonkeyL-held-out-calib_ses-20121024_behavior+ecephys.nwb

@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# raw NWB downloads and derived caches -- regenerable from the Makefile targets
+data/
+cache/
