@@ -1,15 +1,4 @@
-"""A frozen Wiener filter: ridge regression on lagged, sqrt-transformed spike counts.
 
-Deliberately not built on falcon_challenge's submission harness (reset/observe/predict),
-which is shaped for streaming leaderboard scoring. This gives the opposite shape: fit
-once on pooled held-in data, then point it at an arbitrary session's arrays and get one
-R^2 back.
-
-Trap this file exists to avoid: any normalisation statistic that is fit per-session is
-secret decoder recalibration, and will flatten the degradation curve this whole project
-measures against. So every statistic below (channel mean/std, ridge alpha, n_lags) is
-fit ONCE on pooled held-in training data and then frozen into the WienerFilter object.
-"""
 from dataclasses import dataclass, field
 
 import numpy as np

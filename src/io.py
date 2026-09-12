@@ -1,4 +1,4 @@
-"""Session discovery, loading, and caching for FALCON NWB sessions."""
+
 from dataclasses import dataclass
 from pathlib import Path
 import re

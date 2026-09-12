@@ -1,8 +1,4 @@
-"""End-to-end week-1 pipeline: load sessions -> manifest -> frozen Wiener filter ->
-per-session R^2 -> degradation figure. One command, regenerable from a clean checkout:
 
-    python3 -m src.figures --dataset m1 --out figures/fig1_degradation_m1.png
-"""
 import argparse
 from pathlib import Path
 
